@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+:root{
+    --clr-claro: aliceblue;
+    --clr-principal: rgba(18, 12, 73, 0.904);
+    --clr-main: white;
+    --clr-gold: gold;
+
+}
+
+*{
+    font-family: "Poppins", sans-serif;   
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, input, textarea, ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body{
+    background-image: url(./img/fondo.webp);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center; 
+}
+/*      ====>  LOGIN  <====           */
+
+.login{   
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3rem;
+    color: var(--clr-claro);   
+}
+
+.login-fondo{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: fixed;
+}
+
+.img{
+    padding-top: 10rem;
+    background-position: center;
+    width: 650px;
+    height: 80vh;
+}
+
+.login-logo{   
+    color: var(--clr-claro);
+    font-weight: 500;
+    font-size: 2rem;
+    border: solid var(--clr-claro);
+    text-align: center;
+ }
+
+.login-form{
+    position: relative;
+    background-color: var(--clr-principal);
+    border: 2px solid var(--clr-claro);
+    margin-inline: 1.5rem;
+    padding: 2.5rem 1.5rem;
+    border-radius: 1rem;
+    
+    width: 500px;
+    margin-top: 5rem;
+
+}
+
+.login-contenido{
+    display: grid;
+}
+
+.login-contenido{
+    row-gap: 1.75rem;
+    margin-bottom: 1.5rem;
+}
+
+.login-titulo{
+    text-align: center;
+    margin-bottom: 2rem;   
+}
+
+.login-input{
+    width: 100%;
+    padding-block: 0.8rem;
+    background: none;
+    position: relative;
+    z-index: 1;
+    
+}
+
+.login-boxInput{
+    display: grid;
+}
+
+.login-label{
+    left: 0;
+    top: 13px;
+    transition: top 0.3s, font-size 0.3s;
+}
+
+.login-boton{
+    width: 100%;
+    background-color: transparent;
+    padding-block: 0.8rem;
+    border: 1px solid var(--clr-claro);
+    text-transform: uppercase;
+    font-size:medium;
+    cursor: pointer;
+    color: var(--clr-claro);
+    
+}
+
+.login-boton:hover{
+    background-color: rgba(128, 128, 128, 0.548);
+    color: var(--clr-claro);
+    border: 1px solid var(--clr-claro);
+ }
+
+
+
+/*      ====>  INDEX  <====           */
+
+.container{
+    display: grid;
+    grid-template-columns: .75fr 4fr;  
+}
+
+aside{
+    padding: 1rem; 
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    width: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+
+.navbar a{
+    position: relative;
+    font-size: 20px;
+    color: var(--clr-claro);
+    font-weight: 500;
+    text-decoration: none;
+    margin-top: auto;
+    margin-right: 15px;
+}
+
+.navbar a::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: var(--clr-claro);
+    transition: .3s;  
+}
+
+.navbar a:hover::before{
+    width: 100%;
+}
+
+.logo{   
+    color: var(--clr-claro);
+    font-weight: 500;
+    font-size: 2rem;
+    border: solid var(--clr-claro);
+    text-align: center;
+ }
+
+.text-footer{
+    font-size: 100;
+    color: var(--clr-claro);   
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.boton-menu{
+    background-color: transparent;
+    color: var(--clr-claro);
+    border: 0;
+    font-size: 1.15rem;
+    font-weight: 700;
+    cursor:pointer;
+    gap: 1rem;
+    padding: 1rem;
+    margin: .25rem;
+    
+}
+
+.boton-menu.active{
+    background-color: transparent;
+    color: var(--clr-claro);
+    border: 1px solid var(--clr-claro);
+    width: 100%;
+    font-size: 1.25rem;
+   
+}
+
+.boton-menu:hover{
+    background-color: transparent;
+    color: var(--clr-claro);
+    border: 1px solid var(--clr-claro);
+ }
+
+main{
+    margin: 1rem;
+    background-color: var(--clr-main);
+    border-radius: 2rem;
+    padding: 2rem;
+    gap: 1rem;
+}
+
+.titulo-principal{
+    color: var(--clr-principal);
+}
+
+.contenedor-productos{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem; 
+}
+
+.card-img{
+    width: 360px;
+    height: 360px;
+}
+ .card-detalle{
+    background-color: var(--clr-principal);
+    color: var(--clr-claro);
+    padding: .5rem;
+    border-radius: 1rem;
+    margin-top: -2rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+    text-align: center;
+    width: 355px;
+    height: 200px;
+   
+ }
+
+ .card-marca{
+    font-size: 1rem;
+ }
+ .card-precio{
+    color: var(--clr-gold);
+ }
+
+ .card-cantidad{
+    width: 25%;
+    height: 100%;
+    text-transform: uppercase;
+    font-size:medium;
+    cursor: pointer;
+    background-color: transparent;
+    color: var(--clr-claro);
+    border: 1px solid var(--clr-claro);
+    text-align: center;
+    margin-left: 10px;
+ }
+ .card-agregar{
+    background-color: transparent;
+    color: var(--clr-claro);
+    padding: .5rem;
+    border: 1px solid var(--clr-claro);
+    text-transform: uppercase;
+    font-size:medium;
+    cursor: pointer;
+    width: 70%;
+   
+   
+ }
+
+ .card-agregar:hover{
+    background-color: rgba(128, 128, 128, 0.548);
+    color: var(--clr-claro);
+    border: 1px solid var(--clr-claro);
+ }
+
+
+
