@@ -1,0 +1,150 @@
+@import url('./style_principal.css');
+
+/* ================= LOGIN =====================*/
+
+.login{   
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3rem;
+    color: var(--clr-claro);   
+}
+
+.login-fondo{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: fixed;
+}
+
+.img{
+    padding-top: 10rem;
+    background-position: center;
+    width: 650px;
+    height: 80vh;
+}
+
+.login-logo{   
+    color: var(--clr-claro);
+    font-weight: 500;
+    font-size: 2rem;
+    border: solid var(--clr-claro);
+    text-align: center;
+ }
+
+.login-form{
+    position: relative;
+    background-color: var(--clr-principal);
+    border: 2px solid var(--clr-claro);
+    margin-inline: 1.5rem;
+    padding: 2.5rem 1.5rem;
+    border-radius: 1rem; 
+    width: 500px;
+    margin-top: 5rem;
+
+}
+
+.login-contenido{
+    display: grid;
+}
+
+.login-contenido{
+    row-gap: 1.75rem;
+    margin-bottom: 1.5rem;
+}
+
+.login-titulo{
+    text-align: center;
+    margin-bottom: 2rem;   
+}
+
+.login-input{
+    width: 100%;
+    padding-block: 0.8rem;
+    background: none;
+    position: relative;
+    z-index: 1;
+    color: var(--clr-claro);
+    font-size: medium;
+    
+}
+
+.login-boxInput{
+    display: grid; 
+}
+
+.login-label{
+    left: 0;
+    top: 13px;
+    transition: top 0.3s, font-size 0.3s;
+}
+
+.login-boton{
+    width: 100%;
+    background-color: transparent;
+    padding-block: 0.8rem;
+    border: 1px solid var(--clr-claro);
+    text-transform: uppercase;
+    font-size:medium;
+    cursor: pointer;
+    color: var(--clr-claro);
+    
+}
+
+.login-boton:hover{
+    background-color: rgba(128, 128, 128, 0.548);
+    color: var(--clr-claro);
+    border: 1px solid var(--clr-claro);
+ }
+
+.registrar{
+    color: rgb(24, 202, 33);
+}
+
+/* =============== REGISTRO ========================*/
+
+.registro-planilla{
+    
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    gap: 1rem;
+    
+}
+
+.input-planilla{
+    padding: 1rem;
+    padding-top: 1rem;
+    border-radius: 15rem;
+    border: solid black;
+    width: 30rem;
+    color: var(--clr-principal);
+}
+
+.btn-registro{
+    padding: 1rem;
+    padding-top: 1rem;
+    border-radius: 15rem;
+    border: solid black;
+    width: 30rem;
+    cursor: pointer;
+    color: var(--clr-principal);
+}
+
+.chk-registro{
+    color: var(--clr-claro);
+}
+
+
+/* =============== MSJBIENVENIDO ========================*/
+
+.bienvenido{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10rem;
+    gap: 1rem;
+    height: 100vh;
+}

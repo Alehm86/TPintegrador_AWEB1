@@ -1,3 +1,6 @@
+/* import { productos } from "./classProductos";*/
+
+
 const productos = [
     {
         id:"note-01",
@@ -282,6 +285,7 @@ const contenedorProductos = document.querySelector("#contenedor-productos");
 const botonesCategorias = document.querySelectorAll(".boton-categoria");
 const tituloPrincipal = document.querySelector("#titulo-principal");
 
+
 function cargarProductos(productosElegidos){
 
     contenedorProductos.innerHTML = "";
@@ -295,7 +299,7 @@ function cargarProductos(productosElegidos){
                         <div class="card-detalle">
                             <h3 class="card-marca">${producto.marca}</h3>
                             <p class="card-espec">${producto.espec}</p>
-                            <p class="card-precio">$${producto.precio}</p>
+                            <p class="card-precio">$${producto.precio},00</p>
                             <div>
                                 <input class="card-cantidad" type="number" max="10" min="0" placeholder="0">
                                 <button class="card-agregar" id="${producto.id}">Agregar <i class="bi bi-cart-plus"></i></button>
@@ -308,6 +312,7 @@ function cargarProductos(productosElegidos){
 
 }
 cargarProductos(productos);
+
 botonesCategorias.forEach(boton => {
 
     boton.addEventListener("click", (e) => {
