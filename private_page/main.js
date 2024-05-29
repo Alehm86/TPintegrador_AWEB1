@@ -4,7 +4,7 @@ fetch('productos.json').then(function(res){return res.json();}).then(function(da
 
             const contenedorProductos = document.querySelector("#contenedor-productos");
             const botonesCategorias = document.querySelectorAll(".boton-categoria");
-                 
+                
             function cargarProductos(productosElegidos){
 
                 contenedorProductos.innerHTML = "";
@@ -29,21 +29,18 @@ fetch('productos.json').then(function(res){return res.json();}).then(function(da
                 })
             }
             cargarProductos(data);
-            botonesCategorias.forEach(boton => {
 
+            botonesCategorias.forEach(boton => {
                 boton.addEventListener("click", (e) => {
             
                     botonesCategorias.forEach(boton => boton.classList.remove("active"));
-                    e.currentTarget.classList.add("active");  
-                    
+                    e.currentTarget.classList.add("active");                     
                     console.log(e.currentTarget.id);
             
-                    if (e.currentTarget.id != "todos") {
+                    if (e.currentTarget.id != "todos") { 
                         const productosBoton = JSON.stringify(data.filter(producto => producto.categoria.id === e.currentTarget.id));
                         cargarProductos(JSON.parse(productosBoton));
-
-                    } else {
-                        tituloPrincipal.innerText = "Todos los productos";
+                    } else {                       
                         cargarProductos(data);
                     }           
                 })
