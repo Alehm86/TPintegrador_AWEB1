@@ -42,10 +42,8 @@ fetch('productos.json')
                     console.log(e.currentTarget.id);
             
                     if (e.currentTarget.id != "todos") {
-  
                         const productosBoton = JSON.stringify(data.filter(producto => producto.categoria.id === e.currentTarget.id));
                         cargarProductos(JSON.parse(productosBoton));
-
                     } else {
                         tituloPrincipal.innerText = "Todos los productos";
                         cargarProductos(data);
