@@ -1,9 +1,6 @@
 
 const productos  = document.getElementById('productos');
-fetch('productos.json')
-    .then(function(res){
-        return res.json();
-    }).then(function(data){
+fetch('productos.json').then(function(res){return res.json();}).then(function(data){
 
             const contenedorProductos = document.querySelector("#contenedor-productos");
             const botonesCategorias = document.querySelectorAll(".boton-categoria");
@@ -44,6 +41,7 @@ fetch('productos.json')
                     if (e.currentTarget.id != "todos") {
                         const productosBoton = JSON.stringify(data.filter(producto => producto.categoria.id === e.currentTarget.id));
                         cargarProductos(JSON.parse(productosBoton));
+
                     } else {
                         tituloPrincipal.innerText = "Todos los productos";
                         cargarProductos(data);
