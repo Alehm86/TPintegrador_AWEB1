@@ -2,7 +2,7 @@
     {
         "id":"note-01",
         "marca": "Asus",
-        "espec": "CPU: Intel Ci3 - 8Gb DDR4 - SSD500Gb",
+        "espec": "CPU: Intel Ci3 - <i class='bi bi-memory'></i> 8Gb DDR4 - <i class='bi bi-nvme'></i> SSD 500Gb",
         "imagen": "./img/note/note1.webp",
         "categoria":{
             "nombre" : "Notebooks",
@@ -13,7 +13,7 @@
     {
         "id":"note-02",
         "marca": "Dell",
-        "espec": "CPU: Amd Ryzen3 - 8Gb DDR4 - SSD256Gb",
+        "espec": "CPU: Amd Ryzen3 - <i class='bi bi-memory'></i> 8Gb DDR4 - <i class='bi bi-nvme'></i> SSD 256Gb",
         "imagen": "./img/note/note2.webp",
         "categoria":{
             "nombre": "Notebooks",
@@ -24,7 +24,7 @@
     {
         "id":"note-03",
         "marca": "Asus",
-        "espec": "CPU: Intel Celeron N4120 - 4Gb DDR4 - SSD256Gb",
+        "espec": "CPU: Intel Cel N4120 - <i class='bi bi-memory'></i> 4Gb DDR4 - <i class='bi bi-nvme'></i> SSD 256Gb",
         "imagen": "./img/note/note3.webp",
         "categoria":{
             "nombre": "Notebooks",
@@ -35,7 +35,7 @@
     {
         "id":"note-04",
         "marca": "Lenovo",
-        "espec": "CPU: Intel Ci7 - 8Gb DDR4 - SSD256Gb + HDD1TB",
+        "espec": "CPU: Intel Ci7 - <i class='bi bi-memory'></i> 8Gb DDR4 - <i class='bi bi-nvme'></i> SSD 256Gb + <i class='bi bi-database-add'></i> HDD 1TB",
         "imagen": "./img/note/note4.webp",
         "categoria":{
             "nombre": "Notebooks",
@@ -46,7 +46,7 @@
     {
         "id":"note-05",
         "marca": "Asus",
-        "espec": "CPU: Intel Ci7 - 8Gb DDR4 - SSD256Gb",
+        "espec": "CPU: Intel Ci7 - <i class='bi bi-memory'></i> 8Gb DDR4 - <i class='bi bi-nvme'></i> SSD 256Gb",
         "imagen": "./img/note/note5.webp",
         "categoria":{
             "nombre": "Notebooks",
@@ -57,7 +57,7 @@
     {
         "id":"comp-01",
         "marca": "Kingston",
-        "espec": "Tamaño: 120Gb",
+        "espec": "<i class='bi bi-database-add'></i> 120Gb",
         "imagen": "./img/comp/comp1.webp",
         "categoria":{
             "nombre": "Componentes",
@@ -68,7 +68,7 @@
     {
         "id":"comp-02",
         "marca": "Samsung",
-        "espec": "Tamaño: 250Gb",
+        "espec": "<i class='bi bi-database-add'></i> 250Gb",
         "imagen": "./img/comp/comp2.webp",
         "categoria":{
             "nombre": "Componentes",
@@ -79,7 +79,7 @@
     {
         "id":"comp-03",
         "marca": "Intel",
-        "espec": "Ci7-12700 - 12 nucleos - 4.9Ghz - S1700 - 12°gen",
+        "espec": "Ci7-12700 - 12 nuc - 4.9Ghz - S1700",
         "imagen": "./img/comp/comp3.webp",
         "categoria":{
             "nombre": "Componentes",
@@ -90,7 +90,7 @@
     {
         "id":"comp-04",
         "marca": "Intel",
-        "espec": "Ci5-12400F - 6 nucleos - 4.4Ghz - S1700 - 12°gen",
+        "espec": "Ci5-12400F - 6 nuc - 4.4Ghz - S1700",
         "imagen": "./img/comp/comp4.webp",
         "categoria":{
             "nombre": "Componentes",
@@ -101,7 +101,7 @@
     {
         "id":"comp-05",
         "marca": "Intel",
-        "espec": "Ci3-12100F - 4 nucleos - 4.3Ghz - S1700 - 12°gen",
+        "espec": "Ci3-12100F - 4 nuc - 4.3Ghz - S1700",
         "imagen": "./img/comp/comp5.webp",
         "categoria":{
             "nombre": "Componentes",
@@ -112,7 +112,7 @@
     {
         "id":"comp-06",
         "marca": "AMD",
-        "espec": "Ryzen 7-5800X - 8 nucleos - 4.7Ghz - AM4 - 5°Gen",
+        "espec": "Ryzen 7-5800X - 8 nuc - 4.7Ghz - AM4",
         "imagen": "./img/comp/comp6.webp",
         "categoria":{
             "nombre": "Componentes",
@@ -123,7 +123,7 @@
     {
         "id":"comp-07",
         "marca": "AMD",
-        "espec": "Ryzen 5-5600 - 6 nucleos - 4.7Ghz - AM4 - 5°Gen",
+        "espec": "Ryzen 5-5600 - 6 nuc - 4.7Ghz - AM4",
         "imagen": "./img/comp/comp7.webp",
         "categoria":{
             "nombre": "Componentes",
@@ -134,7 +134,7 @@
     {
         "id":"comp-08",
         "marca": "Kingston",
-        "espec": "Tamaño: 8Gb - 3200MHz",
+        "espec": "<i class='bi bi-database-add'></i> 8Gb - 3200MHz",
         "imagen": "./img/comp/comp8.webp",
         "categoria":{
             "nombre": "Componentes",
@@ -145,7 +145,7 @@
     {
         "id":"comp-09",
         "marca": "Adata",
-        "espec": "Tamaño: 16Gb - 3200MHz",
+        "espec": "<i class='bi bi-database-add'></i> 16Gb - 3200MHz",
         "imagen": "./img/comp/comp9.webp",
         "categoria":{
             "nombre": "Componentes",
@@ -189,7 +189,7 @@
     {
         "id":"cel-01",
         "marca": "Samsung",
-        "espec": "Modelo: S23 - Almacenamiento: 256Gb - RAM: 8Gb",
+        "espec": "Modelo: S23 - <i class='bi bi-sd-card'></i> 256Gb - <i class='bi bi-memory'></i> 8Gb",
         "imagen": "./img/cel/cel1.webp",
         "categoria":{
             "nombre": "Celulares",
@@ -200,7 +200,7 @@
     {
         "id":"cel-02",
         "marca": "Samsung",
-        "espec": "Modelo: A52s - Almacenamiento: 128Gb - RAM: 6Gb",
+        "espec": "Modelo: A52s - <i class='bi bi-sd-card'></i> 128Gb - <i class='bi bi-memory'></i> 6Gb",
         "imagen": "./img/cel/cel2.webp",
         "categoria":{
             "nombre": "Celulares",
@@ -211,7 +211,7 @@
     {
         "id":"cel-03",
         "marca": "Samsung",
-        "espec": "Modelo: A14 - Almacenamiento: 64Gb - RAM: 4Gb",
+        "espec": "Modelo: A14 - <i class='bi bi-sd-card'></i> 64Gb - <i class='bi bi-memory'></i> 4Gb",
         "imagen": "./img/cel/cel3.webp",
         "categoria":{
             "nombre": "Celulares",
@@ -222,7 +222,7 @@
     {
         "id":"cel-04",
         "marca": "Apple",
-        "espec": "Modelo: iP15 - Almacenamiento: 256Gb - RAM: 8Gb",
+        "espec": "Modelo: iP15 - <i class='bi bi-sd-card'></i> 256Gb - <i class='bi bi-memory'></i> 8Gb",
         "imagen": "./img/cel/cel4.webp",
         "categoria":{
             "nombre": "Celulares",
@@ -233,7 +233,7 @@
     {
         "id":"cel-05",
         "marca": "Apple",
-        "espec": "Modelo: iP13 - Almacenamiento: 128Gb - RAM: 4Gb",
+        "espec": "Modelo: iP13 - <i class='bi bi-sd-card'></i> 128Gb - <i class='bi bi-memory'></i> 4Gb",
         "imagen": "./img/cel/cel5.webp",
         "categoria":{
             "nombre": "Celulares",
@@ -244,7 +244,7 @@
     {
         "id":"cel-06",
         "marca": "Apple",
-        "espec": "Modelo: iP11 - Almacenamiento: 64Gb - RAM: 4Gb",
+        "espec": "Modelo: iP11 - <i class='bi bi-sd-card'></i> 64Gb - <i class='bi bi-memory'></i> 4Gb",
         "imagen": "./img/cel/cel6.webp",
         "categoria":{
             "nombre": "Celulares",
@@ -255,7 +255,7 @@
     {
         "id":"cel-07",
         "marca": "Motorola",
-        "espec": "Modelo: Edge 30Neo - Almacenamiento: 128Gb - RAM: 8Gb",
+        "espec": "Modelo: Edge 30Neo - <i class='bi bi-sd-card'></i> 128Gb - <i class='bi bi-memory'></i> 8Gb",
         "imagen": "./img/cel/cel7.webp",
         "categoria":{
             "nombre": "Celulares",
@@ -266,7 +266,7 @@
     {
         "id":"cel-08",
         "marca": "Motorola",
-        "espec": "Modelo: G23 - Almacenamiento: 128Gb - RAM: 4Gb",
+        "espec": "Modelo: G23 - <i class='bi bi-sd-card'></i> 128Gb - <i class='bi bi-memory'></i> 4Gb",
         "imagen": "./img/cel/cel8.webp",
         "categoria":{
             "nombre": "Celulares",

@@ -114,7 +114,7 @@ aside{
     background-color: var(--clr-principal);
     color: var(--clr-claro);
     padding: .5rem;
-    border-radius: 1rem;
+    border-radius: 2rem;
     margin-top: -2rem;
     position: relative;
     display: flex;
@@ -128,37 +128,41 @@ aside{
  }
 
  .card-marca{
-    font-size: 1rem;
+    font-size: 30px;
  }
  .card-precio{
     color: var(--clr-gold);
  }
 
  .card-cantidad{
-    width: 25%;
+    width: 20%;
     height: 100%;
     text-transform: uppercase;
     font-size:medium;
     cursor: pointer;
-    background-color: transparent;
+    background-color: var(--clr-btnAgregar);
     color: var(--clr-claro);
     border: 1px solid var(--clr-claro);
+    border-radius: 1rem;
     text-align: center;
-    margin-left: 10px;
+    margin-left: 8px;
+    margin-right: 5px;
  }
  .card-agregar{
-    background-color: transparent;
+    background-color: var(--clr-btnAgregar);
     color: var(--clr-claro);
     padding: .5rem;
     border: 1px solid var(--clr-claro);
+    border-radius: 1rem;
     text-transform: uppercase;
     font-size:medium;
     cursor: pointer;
-    width: 70%;   
+    width: 70%;
+    
  }
 
  .card-agregar:hover{
-    background-color: rgba(128, 128, 128, 0.548);
+    background-color: var(--clr-btnAgregarHobber);
     color: var(--clr-claro);
     border: 1px solid var(--clr-claro);
  }

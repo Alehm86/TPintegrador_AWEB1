@@ -66,6 +66,8 @@
     z-index: 1;
     color: var(--clr-claro);
     font-size: medium;
+    border-radius: .5rem;
+    border: 1px solid var(--clr-claro);
     
 }
 
@@ -84,6 +86,7 @@
     background-color: transparent;
     padding-block: 0.8rem;
     border: 1px solid var(--clr-claro);
+    border-radius: .5rem;
     text-transform: uppercase;
     font-size:medium;
     cursor: pointer;
@@ -92,7 +95,7 @@
 }
 
 .login-boton:hover{
-    background-color: rgba(128, 128, 128, 0.548);
+    background-color: var(--clr-btnAgregarHobber);
     color: var(--clr-claro);
     border: 1px solid var(--clr-claro);
  }
