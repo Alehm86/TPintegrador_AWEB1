@@ -20,30 +20,32 @@
         
         <h1 class="login-logo"> CBATECH! </h1>
 
-        <form action="../private_page/home.html" class="login-form">
+        <form class="login-form" id="login">
 
             <h1 class="login-titulo">Login</h1>
-
             <div class="login-contenido">
                     
-                    <div class="login-boxInput">
-                        <label for="login-email" class="login-label">Email <i class="bi bi-person"></i></label>
-                        <input type="email" class="login-input" id="login-email" placeholder="" required>
-                    </div>
-                       
-        
+                <div class="login-boxInput">
+                    <label for="login-email" class="login-label">Email <i class="bi bi-person"></i></label>
+                    <input type="email" class="login-input" id="email" placeholder="" required>
+                </div>
+
                 <div class="login-box">
                     
                     <div class="login-boxInput">
                         <label for="login-pass" class="login-label">Contraseña <i class="bi bi-key"></i></label>
-                        <input type="password" class="login-input" id="login-pass" placeholder="" required>
+                        <input type="password" class="login-input" id="pass" placeholder="" required>
+                        <h1 id="lblError" class="lblError"></h1>
                     </div>
+
                 </div> 
                 <div class="login-check">
+
                     <div class="login-checkGroup">
                         <input type="checkbox" class="login-checkInput" id="login-check">
                         <label for="login-check" class="login-checkLabel">Recordar</label>
                     </div>
+
                 </div>
             </div>
 
@@ -53,5 +55,7 @@
 
         </form>
     </div>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script type="module" src="./sessionStorage.js"></script>
 </body>
 </html>

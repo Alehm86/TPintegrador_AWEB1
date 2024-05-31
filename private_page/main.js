@@ -1,4 +1,3 @@
-
 const productos  = document.getElementById('productos');
 fetch('productos.json').then(function(res){return res.json();}).then(function(data){
 
@@ -46,6 +45,8 @@ fetch('productos.json').then(function(res){return res.json();}).then(function(da
                 })
             })
 })
+
+
 
 
 
