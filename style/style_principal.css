@@ -6,7 +6,9 @@
     --clr-main: white;
     --clr-gold: gold;
     --clr-btnAgregar:rgba(145, 178, 240, 0.932);
-    --clr-btnAgregarHobber:rgb(165, 15, 211);
+    --clr-btnAgregarHover:rgb(165, 15, 211);
+    --clr-red:red;
+    --clr-redHobber:rgb(182, 91, 91);
 }
 
 *{
@@ -17,7 +19,7 @@
     box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5, h6, p, a, input, textarea, ul {
+small, h1, h2, h3, h4, h5, h6, p, a, input, textarea, ul {
     margin: 0;
     padding: 0;
     color: var(--clr-claro);
@@ -35,5 +37,6 @@ body{
     background-image: url(../public_page/img/fondo.webp);
     background-repeat: no-repeat;
     background-size: cover; 
-    background-position: center; 
+    background-position: center;
+    background-color: var(--clr-principal); 
 }

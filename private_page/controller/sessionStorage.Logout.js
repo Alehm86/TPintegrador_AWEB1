@@ -9,7 +9,6 @@ const logOut = (key)=>{
 window.addEventListener('load',()=>{
     
     const userInfo = getUserData('userData')
-    console.log(userInfo)
 
     document.getElementById('btnLogout').addEventListener('click',()=>{
         logOut('userData')
