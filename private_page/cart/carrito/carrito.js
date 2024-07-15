@@ -76,8 +76,21 @@ function vaciarCarrito() {
 
 function actualizarTotal(){
     const totalCalculado = productosEnCarrito.reduce((acc, producto)=> acc + (producto.precio * producto.cantidad), 0);
-    total.innerText = `$${totalCalculado},00`;
+    total.innerText = `$${totalCalculado},00`;  
+
+
+    let totalAPagar = [];
+    const btnComprar = document.getElementById('carritoComprar')
+
+    btnComprar.addEventListener('click', ()=>{
+        
+        const total= totalCalculado;     
+        const newItem = {total: total}
+        
+        totalAPagar.push(newItem);
+        localStorage.setItem("totalAPagar", JSON.stringify(totalAPagar));
+            
+    })
+
 }
-
-
 

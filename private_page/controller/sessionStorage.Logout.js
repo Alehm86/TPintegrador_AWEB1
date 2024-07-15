@@ -12,7 +12,7 @@ window.addEventListener('load',()=>{
 
     document.getElementById('btnLogout').addEventListener('click',()=>{
         logOut('userData')
-        window.location.href = 'http://127.0.0.1:5500/public_page/login.html';
+        window.location.href = 'http://127.0.0.1:5501/public_page/login.html';
     })
 
 })

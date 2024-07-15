@@ -9,6 +9,9 @@
     --clr-btnAgregarHover:rgb(165, 15, 211);
     --clr-red:red;
     --clr-redHobber:rgb(182, 91, 91);
+    --clr-border: rgba(0, 0, 0, 0.39);
+    --clr-grisTransp: rgba(128, 128, 128, 0.26);
+    --clr-verde: rgba(172, 255, 47, 0.493);
 }
 
 *{

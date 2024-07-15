@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="/style/style_home.css">
+    <link rel="stylesheet" href="/style/style_cardCuotas.css">
     <title>Carrito</title>
 </head>
 <body>
@@ -35,26 +35,16 @@
         </aside>
 
         <div class="carro">
-            <main>                         
-                <div class="contenedor-Carrito" id="contenedor-Carrito">                
+            <main>      
+                    <a href="/private_page/cart/tarjetaCredito/datosTarjeta.html">
+                        <button class="btnVolver"><i class="bi bi-arrow-90deg-left"> Volver </i></button> 
+                    </a>                                    
+                    <div class="cuerpo" id="cuerpo">
 
-                    <div id="carritoProductos" class="carritoProductos"> </div>
-
-                    <div id="carritosBotones" class="carritoBotones">
-                        <div class="carritoIzquierda">
-                            <button id="btnVaciarCarrito" class="btnVaciarCarrito">Vaciar carrito <i class="bi bi-cart-x"></i></button>
-                        </div>
-                        <div class="carritoDerecha">
-                            <div class="carritoTotales">
-                                <p style="color: var(--clr-principal);">Total: </p>
-                                <p style="color: var(--clr-principal);" id="total"></p>
-                            </div>
-                            <button class="carritoComprar">Comprar <i class="bi bi-bag-heart"></i></button>
-                        </div>
+                        <div class="contenedorCuotas" id="contenedorCuotas"></div>
 
                     </div>
-
-                </div>
+                            
             </main>
         </div>
         
@@ -62,7 +52,7 @@
     </div>
     
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
-    <script type="module" src="./carrito.js"></script>
+    <script type="module" src="./opcionCuotas.js"></script>
     <script type="module" src="/private_page/controller/sessionStorage.Logout.js"></script>
     
 </body>

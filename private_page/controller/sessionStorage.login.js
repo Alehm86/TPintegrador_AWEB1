@@ -9,7 +9,7 @@ form.addEventListener('submit', (e)=>{
         const user = users.find(e => e.email === userEmail && e.pass === userPass)            
         if(user){
             sessionStorage.setItem('userData', JSON.stringify(user))
-            window.location.href = 'http://127.0.0.1:5500/private_page/home/index.html';
+            window.location.href = 'http://127.0.0.1:5501/private_page/home/index.html';
         }else{
             document.getElementById('lblError').textContent="Error al ingresar los datos";                                 
         }
